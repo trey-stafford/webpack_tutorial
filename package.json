@@ -1,6 +1,6 @@
 {
   "name": "webpack_tutorial",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "https://webpack.js.org/guides/getting-started/",
   "private": true,
   "scripts": {
