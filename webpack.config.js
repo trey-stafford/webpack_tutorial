@@ -40,11 +40,10 @@ module.exports = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new HtmlWebpackPlugin({
       title: 'Output Management',
       template: path.resolve(__dirname, 'src', 'index.ejs')
     }),
-
   ],
 };
